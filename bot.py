@@ -7,7 +7,7 @@ from telegram.ext import Application, CommandHandler, MessageHandler, filters, C
 # Log on korlam jate error dekhte paro
 logging.basicConfig(level=logging.INFO)
 
-BOT_TOKEN = os.environ.get("BOT_TOKEN")
+BOT_TOKEN = os.environ.get("9091735677:AAGd-LJIKqwAN9dBxZTGd6jOOeAePe4pOeA")
 
 #  /start command - Upore GM DOWNLOADER nam thakbe
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
